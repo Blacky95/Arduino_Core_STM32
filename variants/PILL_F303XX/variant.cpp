@@ -35,26 +35,6 @@ extern "C" {
 
 // Pin number
 const PinName digitalPin[] = {
-  PB_9,  //D0
-  PB_8,  //D1
-  PB_7,  //D2
-  PB_6,  //D3
-  PB_5,  //D4
-  PB_4,  //D5
-  PB_3,  //D6
-  PA_15, //D7
-  PA_12, //D8  - USB_DP
-  PA_11, //D9  - USB_DM
-  PA_10, //D10
-  PA_9,  //D11
-  PA_8,  //D12
-  PB_15, //D13
-  PB_14, //D14
-  PB_13, //D15
-  PB_12, //D16
-  PC_13, //D17 - LED
-  PC_14, //D18
-  PC_15, //D19
   PA_0,  //D20/A0
   PA_1,  //D21/A1
   PA_2,  //D22/A2
@@ -63,13 +43,22 @@ const PinName digitalPin[] = {
   PA_5,  //D25/A5
   PA_6,  //D26/A6
   PA_7,  //D27/A7
-  PB_0,  //D28/A8
-  PB_1,  //D29/A9
-  PB_10, //D30
-  PB_11, //D31
-  PB_2,  //D32 - BOOT1
+  PA_8,  //D12
+  PA_9,  //D11
+  PA_10, //D10
+  PA_11, //D9
+  PA_12, //D8
   PA_13, //D33 - SWDI0
   PA_14, //D34 - SWCLK
+  PA_15, //D7
+  PB_0,  //D28/A8
+  PB_1,  //D29/A9 
+  PB_2,  //D32 - BOOT1
+  PB_3,  //D6
+  PB_4,  //D5
+  PB_5,  //D4
+  PB_6,  //D3
+  PB_7,  //D2
 };
 
 #ifdef __cplusplus
